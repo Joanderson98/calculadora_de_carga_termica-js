@@ -1,11 +1,13 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 
 .center{
     margin: auto;
-    max-width: 700px;
+    max-width: 600px;
+  
 }
 
 .container{
@@ -14,15 +16,15 @@
     background-color: rgb(136, 171, 202);
     padding: 10px;
     text-align: center; 
-    display: inline-block;
-    
-
-    
-    
-    
+    display: inline-block;  
     
 }
-
+.title{
+    font-size: 1.8em;
+    text-align: center;
+    padding: 15px;
+    
+}
 
 input{
     width: 80%;
@@ -33,9 +35,7 @@ input{
     margin: auto;
     margin-top: 10px;
     padding-left: 20px;
-    text-align: center;
-   
-    
+    text-align: center;    
 }
 
 
@@ -57,27 +57,20 @@ p{
     font-size: 0.9rem;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    font-size: 1.5em;
-}
 
 .metro2{
     padding: 10px;
     margin-bottom: 5px;
-   background-color: rgb(221, 184, 184);
+   background-color: rgb(109, 161, 206);
    max-width: 200px;
    float: left;
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
-
-   
- 
-
 }
 
 #botao1{
     color: white;
-    background-color: rgb(44, 93, 255);
+    background-color: rgb(129, 22, 22);
     margin-top: 5px;
     width: 80%;
     border: none;
