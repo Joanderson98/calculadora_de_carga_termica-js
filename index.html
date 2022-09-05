@@ -16,31 +16,11 @@
    
 
     <div class="center">
-        <h1 class="title">Projeto de Carga térmica</h1>
-        <div class="container">
-            <h1>Calculadora de carga térmica (BTUs m²)</h1>
-            <h2>------------------------</h2>
-
-            <div class="inp">
-                <p>Total de área em m²</p>
-                <input id="metrosQ" type="number" placeholder="ex. 30">
-                <p>Total de pessoas no ambiente<br>(A primeira pessoa não contabiliza)</p>
-                <input id="QtdPessoas" type="number" placeholder="ex.5">
-                <p>Total de Eletroeletrônicos</p>
-                <input id="QtdEletro" type="number" placeholder="ex. 5">
-                <input id="parede" type="checkbox"> Marque essa caixa caso alguma parede do cômodo tenha contato direto com a luz do sol
-
-                <button id="botao" onclick="calcular()">Calcular</button>
-            </div>
-
-            <div id="resultado">
-
-            </div>
-            <h2 id="n"></h2>
-
+        <div class="t1">
+            <h1 class="title t1">Projeto de Carga térmica</h1>
         </div>
         <div class="metro2">
-            <h4>Preencha os campos e saiba quantos m² tem a área que você vai instalar seu Ar</h4>
+            <h2>Preencha os campos e saiba quantos m² tem a área</h2>
 
             <p>Comprimento</p>
             <input id="comprimento" type="number" placeholder="ex.6">
@@ -50,11 +30,30 @@
 
             <button id="botao1" onclick="calcM()">Calcular m²</button>
 
-            <h4 id="Mq">... </h4>
-
-
+            <h4 id="Mq"> </h4>
 
         </div>
+        <div class="container">
+            <h2>Calculadora de carga térmica (BTUs m²)</h2>
+            <h2>----------------------------</h2>
+
+            <div class="inp">
+                <p>Total de área em m²</p>
+                <input id="metrosQ" type="number" placeholder="ex. 30">
+                <p>Total de pessoas no ambiente<br>(A primeira pessoa não contabiliza)</p>
+                <input id="QtdPessoas" type="number" placeholder="ex.5">
+                <p>Total de Eletroeletrônicos</p>
+                <input id="QtdEletro" type="number" placeholder="ex. 5">
+                <input id="parede" type="checkbox"> Marque essa caixa caso alguma parede do cômodo tenha contato direto com a luz do sol
+                <br>
+                <button id="botao" onclick="calcular()">Calcular BTUs</button>
+            </div>
+
+        
+            <h2 id="n"></h2>
+
+        </div>
+        
     </div>
     <script src="./script.js"></script>
 </body>
