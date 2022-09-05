@@ -42,7 +42,7 @@ function calcular(){
     }else if(n1 > 2000){
         n.innerHTML = "Será necessário um ar de 7000Btus."
     }else{
-        n.innerHTML = "erro."
+        n.innerHTML = "Verifique se os campos acima estão preenchidos"
     }
   
 
@@ -63,8 +63,11 @@ function calcM(){
 
     let total = larg * comp;
 
-    metroq.innerHTML = "Sua área é equivalente a " + total + " metros quadrados." 
-
+    if (total == 0) {
+        metroq.innerHTML = "Por favor preencha os campos acima" 
+    } else {
+        metroq.innerHTML = "Sua área é equivalente a " + total + " metros quadrados." 
+    }
 
 }
 
