@@ -23,21 +23,21 @@ function calcular(){
         n.innerHTML = "Será necessário mais de um aparelho. Por favor, verifique com um técnico da sua confiança."
     }else if(n1 > 48000){
         n.innerHTML = "Será necessário um ar de 60000Btus."
-    } else if(n1 > 36000){
+    } else if(n1 > 38000){
         n.innerHTML = "Será necessário um ar de 48000Btus."
-    } else if(n1 > 30000){
+    } else if(n1 > 32000){
         n.innerHTML = "Será necessário um ar de 36000Btus."
-    }else if(n1 > 28000){
+    }else if(n1 > 30000){
         n.innerHTML = "Será necessário um ar de 30000Btus."
-    }else if(n1 > 24000){
+    }else if(n1 > 26000){
         n.innerHTML = "Será necessário um ar de 28000Btus."
-    }else if(n1 > 18000){
+    }else if(n1 > 20000){
         n.innerHTML = "Será necessário um ar de 24000Btus."
-    }else if(n1 > 12000){
+    }else if(n1 > 14000){
         n.innerHTML = "Será necessário um ar de 18000Btus."
-    }else if(n1 > 9000){
+    }else if(n1 > 10000){
         n.innerHTML = "Será necessário um ar de 12000Btus."
-    }else if(n1 > 7000){
+    }else if(n1 > 8000){
         n.innerHTML = "Será necessário um ar de 9000Btus."
     }else if(n1 > 2000){
         n.innerHTML = "Será necessário um ar de 7000Btus."
@@ -63,7 +63,7 @@ function calcM(){
 
     let total = larg * comp;
 
-    metroq.innerHTML ="Sua área é equivalente a " + total + " metros quadrados." 
+    metroq.innerHTML = "Sua área é equivalente a " + total + " metros quadrados." 
 
 
 }
