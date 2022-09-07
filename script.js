@@ -19,7 +19,7 @@ function calcular(){
 
     let n1 = (Xmetros * btuS) + (Xpessoas * check(checkB)) + (Xeletro * check(checkB)); 
     if(n1 > 60000){
-        n.innerHTML = `Será necessário aparelhos de capacidades equivaletes a ${n1.toLocaleString()}BTUs. `
+        n.innerHTML = `Será necessário aparelhos de capacidades equivaletes a ${n1}BTUs. `
     }else if(n1 > 48000){
         n.innerHTML = "Será necessário um ar de 60000Btus."
     } else if(n1 > 38000){
