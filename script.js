@@ -1,4 +1,4 @@
-let metrosQ = document.getElementById("metrosQ")
+let metrosQuad = document.getElementById("metrosQ")
 let QtdPessoas = document.getElementById("QtdPessoas")
 let QtdEletro = document.getElementById("QtdEletro")
 let resultado = document.getElementById("resultado")
@@ -13,13 +13,13 @@ let btuS = 600;
 function calcular(){
     console.log("testando")
 
-    let Xmetros = metrosQ.value;
+    let Xmetros = metrosQuad.value;
     let Xpessoas = QtdPessoas.value;
     let Xeletro = QtdEletro.value;
 
     let n1 = (Xmetros * btuS) + (Xpessoas * check(checkB)) + (Xeletro * check(checkB)); 
     if(n1 > 60000){
-        n.innerHTML = `Será necessário aparelhos de capacidades equivaletes a ${n1.toLocaleString}BTUs. `
+        n.innerHTML = `Será necessário aparelhos de capacidades equivaletes a ${n1.toLocaleString()}BTUs. `
     }else if(n1 > 48000){
         n.innerHTML = "Será necessário um ar de 60000Btus."
     } else if(n1 > 38000){
