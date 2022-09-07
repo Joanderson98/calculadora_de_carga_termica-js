@@ -4,7 +4,6 @@ let QtdEletro = document.getElementById("QtdEletro")
 let resultado = document.getElementById("resultado")
 let n = document.getElementById("n")
 
-
 let parede = document.getElementById("parede")
 
 let btusP = 800;
@@ -18,11 +17,9 @@ function calcular(){
     let Xpessoas = QtdPessoas.value;
     let Xeletro = QtdEletro.value;
 
-    let n2 = (Xmetros * btuS) + (Xpessoas * check(checkB)) + (Xeletro * check(checkB));
-    let n1 = n2.toLocaleString
-
+    let n1 = (Xmetros * btuS) + (Xpessoas * check(checkB)) + (Xeletro * check(checkB)); 
     if(n1 > 60000){
-        n.innerHTML = `Será necessário aparelho de capacidades somadas equivalentes ou superior a ${n1.toLocaleString()}BTUs.`
+        n.innerHTML = `Será necessário aparelhos de capacidades equivaletes a ${n1.toLocaleString()}BTUs. `
     }else if(n1 > 48000){
         n.innerHTML = "Será necessário um ar de 60000Btus."
     } else if(n1 > 38000){
@@ -68,7 +65,7 @@ function calcM(){
     if (total == 0) {
         metroq.innerHTML = "Por favor preencha os campos acima" 
     } else {
-        metroq.innerHTML = "Sua área é equivalente a " + total.toLocaleString() + " metros quadrados." 
+        metroq.innerHTML = "Sua área é equivalente a " + total + " metros quadrados." 
     }
 
 }
