@@ -15,13 +15,17 @@
     
    
 
+    <div class="pag">
+        <img src="./img/logo1.png">
+        <h1 class="tt">TIAGO OLIVEIRA</h1>
+    </div>    
     <div class="center">
         <div class="t1">
-            <h1 class="title t1">Projeto de Carga térmica</h1>
+            <h1 class="title t1"></h1>
         </div>
         <div class="metro2">
-            <h2>Preencha os campos e saiba quantos m² tem a área</h2>
-
+            <h3>Preencha os campos e saiba quantos m² tem a área</h3>
+            <hr>
             <p>Comprimento</p>
             <input id="comprimento" type="number" placeholder="ex.6">
 
@@ -34,8 +38,8 @@
 
         </div>
         <div class="container">
-            <h2>Calculadora de carga térmica (BTUs m²)</h2>
-            <h2>----------------------------</h2>
+            <h3>Calculadora de carga térmica (BTUs m²)</h3>
+            <hr>
 
             <div class="inp">
                 <p>Total de área em m²</p>
@@ -44,17 +48,35 @@
                 <input id="QtdPessoas" type="number" placeholder="ex.5">
                 <p>Total de Eletroeletrônicos</p>
                 <input id="QtdEletro" type="number" placeholder="ex. 5">
-                <input id="parede" type="checkbox"> Marque essa caixa caso alguma parede do cômodo tenha contato direto com a luz do sol
+                <input id="parede" type="checkbox">
+                <p id="cBox">Marque essa caixa caso alguma parede do cômodo tenha contato direto com a luz do sol</p>
                 <br>
-                <button id="botao" onclick="calcular()">Calcular BTUs</button>
+                <button id="botao"  onclick="calcular()">Calcular BTUs</button>
             </div>
 
         
             <h2 id="n"></h2>
 
         </div>
-        
-    </div>
+     
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://wa.me/5571986200412?text=Vim%20do%20seu%20site" class="wpp" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+        </a>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <a href="https://wa.me/5571986200412?text=Vim%20do%20seu%20site" class="insta"  target="_blank">
+    <script src="./script.js"></script>
+        <i class="bi bi-instagram blue-color"></i>
+        </a>
+        <!-- style="position:relative;top:15px;text-align:center" class="bi bi-instagram blue-color" -->
+        <!-- style="position:fixed;width:60px;height:60px;bottom:120px;right:40px;background-color:#de255f;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+          z-index:1000;" -->
+
+          <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://wa.me/5571986200412?text=Vim%20do%20seu%20site" class="wpp" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+          z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i> -->
+     
     <script src="./script.js"></script>
 </body>
 
