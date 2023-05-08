@@ -22,27 +22,27 @@ function calcular(){
     if(n1 > 60000){
         n.innerHTML = "Será necessário aparelhos de capacidades equivaletes a " + n1.toLocaleString() + "BTUs."
     }else if(n1 > 48000){
-        n.innerHTML = "Será necessário um ar de 60.000Btus."
+        n.innerHTML = "Será necessário um ar de 60000Btus."
     } else if(n1 > 38000){
-        n.innerHTML = "Será necessário um ar de 48.000Btus."
+        n.innerHTML = "Será necessário um ar de 48000Btus."
     } else if(n1 > 32000){
-        n.innerHTML = "Será necessário um ar de 36.000Btus."
-    }else if(n1 >= 30000){
-        n.innerHTML = "Será necessário um ar de 30.000Btus."
+        n.innerHTML = "Será necessário um ar de 36000Btus."
+    }else if(n1 > 30000){
+        n.innerHTML = "Será necessário um ar de 30000Btus."
     }else if(n1 > 26000){
-        n.innerHTML = "Será necessário um ar de 28.000Btus."
+        n.innerHTML = "Será necessário um ar de 28000Btus."
     }else if(n1 > 20000){
-        n.innerHTML = "Será necessário um ar de 24.000Btus."
+        n.innerHTML = "Será necessário um ar de 24000Btus."
     }else if(n1 > 14000){
-        n.innerHTML = "Será necessário um ar de 18.000Btus."
+        n.innerHTML = "Será necessário um ar de 18000Btus."
     }else if(n1 > 10000){
-        n.innerHTML = "Será necessário um ar de 12.000Btus."
+        n.innerHTML = "Será necessário um ar de 12000Btus."
     }else if(n1 > 8000){
-        n.innerHTML = "Será necessário um ar de 9.000Btus."
+        n.innerHTML = "Será necessário um ar de 9000Btus."
     }else if(n1 > 2000){
-        n.innerHTML = "Será necessário um ar de 7.000Btus."
+        n.innerHTML = "Será necessário um ar de 7000Btus."
     }else{
-        n.innerHTML = "Verifique se os campos acima estão preenchidos"
+        n.innerHTML = "Verifique"
     }
   
 
@@ -82,4 +82,3 @@ function check(checkB){
         return btuS
     } 
 }
-
